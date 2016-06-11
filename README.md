@@ -4,6 +4,8 @@
 * Manage your tables (only circles)
 * Save N configurations
 
+![alt tag](https://github.com/pjboirleaud/wedding-tables/blob/master/wedding-tables.png)
+
 ## Configuration
 
 Edit FB variable in wedding.js to bind to your firebase URI
