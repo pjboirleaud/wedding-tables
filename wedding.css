@@ -1,0 +1,176 @@
+*, .label {
+    color: #4e4e4e;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    white-space: nowrap;
+    font-weight: bold;
+}
+
+#container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    /*border: 3px dashed #4e4e4e;
+    top: 20px;
+    bottom: 20px;
+    right: 20px;
+    left: 20px;*/
+}
+
+#loading {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 50%;
+    display: none;
+    font-size: 30px;
+}
+
+.table.circle {
+    border-radius: 50%;
+    background-color: #deeafa;
+    border: 3px solid #4e4e4e;
+    width: 150px;
+    height: 150px;
+}
+
+.table .newSeat {
+    position: absolute;
+    top: 120px;
+    left: 90px;
+    cursor: pointer;
+}
+
+.table.circle.deleteDrop {
+    background-color: #ba4545!important;
+}
+
+.table .deleteSeat {
+    display: none;
+    position: absolute;
+    top: 120px;
+    left: 90px;
+    cursor: pointer;
+    color: white;
+}
+
+.table .deleteSeat b {
+    color: brown;
+}
+
+.seatContainer {
+    position: absolute;
+}
+
+.seatContainer .seat {
+    position: absolute;
+    border-radius: 50%;
+    background-color: #4e4e4e;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.seatContainer .label {
+    position: absolute;
+}
+
+.seatContainer .label.right {
+    left: 25px;
+}
+
+.seatContainer .label.left {
+    right: 10;
+    text-align: right;
+}
+
+.tableContainer {
+    position: absolute;
+    padding: 50px;
+    /* background-color: #fdeded; 
+    border: black dashed 1px; */
+}
+
+.tableContainer.circle {
+    border-radius: 50%;
+}
+
+#newTable {
+    position: absolute;
+    right: 20px;
+    bottom: 15px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#newTable b {
+    font-size: 20px;
+}
+
+#deleteTable {
+    display: none;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 250px;
+    height: 250px;
+    background-color: #ba4545;
+    color: beige;
+    border-top-left-radius: 100%;
+    text-indent: 100px;
+    line-height: 290px;
+}
+
+#save {
+    position: absolute;
+    right: 200px;
+    bottom: 15px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#save b {
+    font-size: 20px;
+}
+
+#saved, #error {
+    display: none;
+    position:absolute; 
+    top: 10px; 
+    right: 10px;
+}
+
+.gender-toggle {
+    cursor: pointer;
+}
+
+.male {
+    color: cornflowerblue;
+}
+
+.female {
+    color: coral;
+}
+
+.seated, .seated * {
+    color: lightgray;
+}
+
+.error-double {
+    font-weight: bolder;
+    color: white;
+    background-color: firebrick;
+}
+
+.error-missing {
+    font-weight: bolder;
+    color: firebrick;
+    text-decoration: line-through;
+}
+
+.modal-body {
+    max-height: 500px;
+    overflow-y: auto;
+}
